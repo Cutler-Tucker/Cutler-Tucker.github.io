@@ -41,7 +41,7 @@ $(function () {
     createPlatform(700, 300, 550, 8);
     createPlatform(1300, 170, 100, 8);
     createPlatform(700, 150, 500, 8);
-    createPlatform(450, 100, 100, 8);
+    createPlatform(450, 150, 100, 8);
     createPlatform(600, 300, 50, 8);
     // TODO 3 - Create Collectables
 createCollectable("max", 1320, 130);
@@ -60,3 +60,17 @@ createCollectable("max", 1050, 250);
 
   registerSetup(setup);
 });
+
+var response = prompt("What is Henry from?");
+
+if (response === "kcd") {
+  alert("elite ball knowledge");
+}
+
+else if (response === "kcd 2") {
+  alert("good enough");
+}
+
+else {
+  alert("SCRAM BUCKAROO!");
+}
