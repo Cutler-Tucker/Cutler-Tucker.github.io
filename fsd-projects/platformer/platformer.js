@@ -43,6 +43,7 @@ $(function () {
     createPlatform(700, 150, 500, 8);
     createPlatform(450, 150, 100, 8);
     createPlatform(600, 300, 50, 8);
+    createPlatform(430, 50, 8, 80);
     // TODO 3 - Create Collectables
 createCollectable("max", 1320, 130);
 createCollectable("steve", 500, 50);
